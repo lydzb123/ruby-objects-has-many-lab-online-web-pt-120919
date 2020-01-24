@@ -9,6 +9,9 @@ class Author
     Post.all
   end
 
+  def add_post
+
+  end
 
 
 
