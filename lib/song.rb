@@ -4,6 +4,7 @@ class Song
 
   def initialize(name)
     @name = name
+    @artist = artist
     @@all << self
   end
 
@@ -16,8 +17,10 @@ class Song
       return nil
     else
       return self.artist
-      binding.pry
     end
   end
 
 end
+
+
+summer_game.artist_name => drake
