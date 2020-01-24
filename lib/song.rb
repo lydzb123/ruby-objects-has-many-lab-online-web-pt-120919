@@ -17,5 +17,6 @@ class Song
     else
       return self.artist
     end
+  end
 
 end
