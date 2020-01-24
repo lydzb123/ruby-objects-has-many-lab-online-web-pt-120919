@@ -11,5 +11,7 @@ class Posts
     @@all
   end
 
+  def author_name
 
+    
 end
