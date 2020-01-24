@@ -5,6 +5,8 @@ class Artist
 
   def initialize(name)
     @name = name
+    @songs = []
+
     @@all << @songs
   end
 
@@ -14,7 +16,6 @@ class Artist
 
 
   def add_songs(song)
-    @songs = []
     @songs << song
   end
 
