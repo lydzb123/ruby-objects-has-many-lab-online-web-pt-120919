@@ -15,5 +15,6 @@ class Posts
     if !@author
       return nil
     else
-      return self.author 
+      return self.author
+    end
 end
