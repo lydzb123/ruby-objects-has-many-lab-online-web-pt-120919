@@ -9,7 +9,8 @@ class Artist
   end
 
   def songs
-    @@all
+    @songs << self
+    
   end
 
 
