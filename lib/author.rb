@@ -6,9 +6,5 @@ class Author
     @post = []
   end
 
-  def add_post(post)
-    @post << post
-  end
-
 
 end
