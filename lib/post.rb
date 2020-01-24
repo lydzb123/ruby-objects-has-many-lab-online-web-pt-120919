@@ -17,4 +17,5 @@ class Posts
     else
       return self.author
     end
+  end
 end
