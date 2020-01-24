@@ -1,4 +1,4 @@
-class Posts
+class Post
   attr_accessor :title, :author
   @@all = []
 
@@ -18,4 +18,5 @@ class Posts
       return self.author
     end
   end
+
 end
