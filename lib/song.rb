@@ -16,6 +16,7 @@ class Song
       return nil
     else
       return self.artist
+      binding.pry
     end
   end
 
