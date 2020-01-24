@@ -12,5 +12,8 @@ class Posts
   end
 
   def author_name
-    self.author 
+    if !@author
+      return nil
+    else
+      return self.author 
 end
