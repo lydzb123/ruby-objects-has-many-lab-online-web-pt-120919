@@ -12,6 +12,5 @@ class Posts
   end
 
   def author_name
-
     
 end
